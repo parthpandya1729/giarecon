@@ -1,0 +1,1396 @@
+{
+	"info": {
+		"_postman_id": "34c3ef24-24c8-47e2-9178-927948ef51e5",
+		"name": "ReconBackendAPIs Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28048212"
+	},
+	"item": [
+		{
+			"name": "https://recon.benow.in/api/recon/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "test20@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "k",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://recon.benow.in/api/recon/auth/login",
+					"protocol": "https",
+					"host": [
+						"recon",
+						"benow",
+						"in"
+					],
+					"path": [
+						"api",
+						"recon",
+						"auth",
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auth/login' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1' \\\r\n  --data-raw 'username=test20%40example.com&password=k' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auth/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "test20@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "k",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auth/login",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auth",
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auth/login' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1' \\\r\n  --data-raw 'username=test20%40example.com&password=k' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auth/me",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auth/me",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auth",
+						"me"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auth/me' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/workspace-overview/dashboard/workspaces",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/workspace-overview/dashboard/workspaces",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"workspace-overview",
+						"dashboard",
+						"workspaces"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/workspace-overview/dashboard/workspaces' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/upload/?config_name=Demo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file1",
+							"type": "file",
+							"src": "BenowFile.xlsx"
+						},
+						{
+							"key": "file2",
+							"type": "file",
+							"src": "Brand.xlsx"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/upload/?config_name=Demo",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"upload",
+						""
+					],
+					"query": [
+						{
+							"key": "config_name",
+							"value": "Demo"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/upload/?config_name=Demo' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVBywzrBS1pGqDA0E' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw $'------WebKitFormBoundaryVBywzrBS1pGqDA0E\\r\\nContent-Disposition: form-data; name=\"file1\"; filename=\"BenowFile.xlsx\"\\r\\nContent-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\\r\\n\\r\\n\\r\\n------WebKitFormBoundaryVBywzrBS1pGqDA0E\\r\\nContent-Disposition: form-data; name=\"file2\"; filename=\"Brand.xlsx\"\\r\\nContent-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\\r\\n\\r\\n\\r\\n------WebKitFormBoundaryVBywzrBS1pGqDA0E--\\r\\n' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/configurations/649",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Demo\",\"update_recon_jobs\":true}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/configurations/649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"configurations",
+						"649"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/configurations/649' \\\r\n  -X 'PUT' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw '{\"name\":\"Demo\",\"update_recon_jobs\":true}' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/automap/autocomplete/1299",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/automap/autocomplete/1299",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"automap",
+						"autocomplete",
+						"1299"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/automap/autocomplete/1299' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/configurations/649",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Demo\",\"update_recon_jobs\":true}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/configurations/649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"configurations",
+						"649"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/configurations/649' \\\r\n  -X 'PUT' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw '{\"name\":\"Demo\",\"update_recon_jobs\":true}' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/field-mapping/1299?config_id=649",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mappings\":[{\"file1_column\":\"txn_ref_number\",\"file2_column\":\"Transaction Reference\",\"is_primary_key\":true},{\"file1_column\":\"TRANSACTIONAMOUNT\",\"file2_column\":\"Paid Amount\",\"is_primary_key\":false},{\"file1_column\":\"product_amount\",\"file2_column\":\"MRP\",\"is_primary_key\":false},{\"file1_column\":\"PRODUCT_CATEGORY\",\"file2_column\":\"PRODUCT_CATEGORY\",\"is_primary_key\":false},{\"file1_column\":\"Tenure\",\"file2_column\":\"Tenure\",\"is_primary_key\":false},{\"file1_column\":\"RATE_OF_INTEREST____P_A_\",\"file2_column\":\"RATE_OF_INTEREST____P_A_\",\"is_primary_key\":false},{\"file1_column\":\"EMI_AMOUNT\",\"file2_column\":\"EMI_AMOUNT\",\"is_primary_key\":false},{\"file1_column\":\"LOAN_AMOUNT\",\"file2_column\":\"LOAN_AMOUNT\",\"is_primary_key\":false},{\"file1_column\":\"Brand share\",\"file2_column\":\"Correct brand share\",\"is_primary_key\":false},{\"file1_column\":\"Bank share\",\"file2_column\":\"Correct bank share\",\"is_primary_key\":false}]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/field-mapping/1299?config_id=649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"field-mapping",
+						"1299"
+					],
+					"query": [
+						{
+							"key": "config_id",
+							"value": "649"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/field-mapping/1299?config_id=649' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw '{\"mappings\":[{\"file1_column\":\"txn_ref_number\",\"file2_column\":\"Transaction Reference\",\"is_primary_key\":true},{\"file1_column\":\"TRANSACTIONAMOUNT\",\"file2_column\":\"Paid Amount\",\"is_primary_key\":false},{\"file1_column\":\"product_amount\",\"file2_column\":\"MRP\",\"is_primary_key\":false},{\"file1_column\":\"PRODUCT_CATEGORY\",\"file2_column\":\"PRODUCT_CATEGORY\",\"is_primary_key\":false},{\"file1_column\":\"Tenure\",\"file2_column\":\"Tenure\",\"is_primary_key\":false},{\"file1_column\":\"RATE_OF_INTEREST____P_A_\",\"file2_column\":\"RATE_OF_INTEREST____P_A_\",\"is_primary_key\":false},{\"file1_column\":\"EMI_AMOUNT\",\"file2_column\":\"EMI_AMOUNT\",\"is_primary_key\":false},{\"file1_column\":\"LOAN_AMOUNT\",\"file2_column\":\"LOAN_AMOUNT\",\"is_primary_key\":false},{\"file1_column\":\"Brand share\",\"file2_column\":\"Correct brand share\",\"is_primary_key\":false},{\"file1_column\":\"Bank share\",\"file2_column\":\"Correct bank share\",\"is_primary_key\":false}]}' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auth-rule/1299?config_id=649",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auth-rule/1299?config_id=649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auth-rule",
+						"1299"
+					],
+					"query": [
+						{
+							"key": "config_id",
+							"value": "649"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auth-rule/1299?config_id=649' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auth-rule/1299?config_id=649",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"entity_type\":\"entity1\",\"rule_type\":\"text_format\",\"field\":\"txn_ref_number\",\"config\":{\"value\":\"\",\"operator\":\"\",\"textFormat\":[\"Alpha\",\"Numeric\"],\"minThreshold\":\"\",\"maxThreshold\":\"\",\"date_format\":\"\",\"numberType\":\"\",\"decimalPlaces\":null,\"filterField\":\"\",\"filterValues\":[],\"uniqueValue\":\"\",\"expression\":\"\",\"isExpressionValid\":false}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auth-rule/1299?config_id=649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auth-rule",
+						"1299"
+					],
+					"query": [
+						{
+							"key": "config_id",
+							"value": "649"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auth-rule/1299?config_id=649' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw '{\"entity_type\":\"entity1\",\"rule_type\":\"text_format\",\"field\":\"txn_ref_number\",\"config\":{\"value\":\"\",\"operator\":\"\",\"textFormat\":[\"Alpha\",\"Numeric\"],\"minThreshold\":\"\",\"maxThreshold\":\"\",\"date_format\":\"\",\"numberType\":\"\",\"decimalPlaces\":null,\"filterField\":\"\",\"filterValues\":[],\"uniqueValue\":\"\",\"expression\":\"\",\"isExpressionValid\":false}}' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auth-check/check/1299?entity_type=entity1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auth-check/check/1299?entity_type=entity1",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auth-check",
+						"check",
+						"1299"
+					],
+					"query": [
+						{
+							"key": "entity_type",
+							"value": "entity1"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auth-check/check/1299?entity_type=entity1' \\\r\n  -X 'POST' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Length: 0' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/metadata/numeric-columns/1299",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/metadata/numeric-columns/1299",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"metadata",
+						"numeric-columns",
+						"1299"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/metadata/numeric-columns/1299' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/validation-rule/validation-rules/1299?config_id=649",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"rule_name\":\"Rule1\",\"left_expression\":\"Brand_share_sheet1+ Bank_share_sheet1\",\"right_expression\":\"Correct_brand_share_sheet2+ Correct_bank_share_sheet2\",\"operator\":\"==\",\"description\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/validation-rule/validation-rules/1299?config_id=649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"validation-rule",
+						"validation-rules",
+						"1299"
+					],
+					"query": [
+						{
+							"key": "config_id",
+							"value": "649"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/validate/validate/1299",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/validate/validate/1299",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"validate",
+						"validate",
+						"1299"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/validate/validate/1299' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw '{}' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/workspace-overview/dashboard/workspaces/1299",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/workspace-overview/dashboard/workspaces/1299",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"workspace-overview",
+						"dashboard",
+						"workspaces",
+						"1299"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/workspace-overview/dashboard/workspaces/1299' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/download/results/1299",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/download/results/1299",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"download",
+						"results",
+						"1299"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/download/results/1299' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auto-recon/workspace/649",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file1",
+							"type": "file",
+							"src": "BenowFile.xlsx"
+						},
+						{
+							"key": "file2",
+							"type": "file",
+							"src": "Brand.xlsx"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auto-recon/workspace/649",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auto-recon",
+						"workspace",
+						"649"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auto-recon/workspace/649' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLtewp8YgCvWbJSNM' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --data-raw $'------WebKitFormBoundaryLtewp8YgCvWbJSNM\\r\\nContent-Disposition: form-data; name=\"file1\"; filename=\"BenowFile.xlsx\"\\r\\nContent-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\\r\\n\\r\\n\\r\\n------WebKitFormBoundaryLtewp8YgCvWbJSNM\\r\\nContent-Disposition: form-data; name=\"file2\"; filename=\"Brand.xlsx\"\\r\\nContent-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\\r\\n\\r\\n\\r\\n------WebKitFormBoundaryLtewp8YgCvWbJSNM--\\r\\n' \\\r\n  --insecure"
+			},
+			"response": []
+		},
+		{
+			"name": "https://recon.benow.in/api/recon/auto-recon/status/1300",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Origin",
+						"value": "https://recon.benow.in"
+					},
+					{
+						"key": "Pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "Referer",
+						"value": "https://recon.benow.in/"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "http://13.201.0.183:8000/api/recon/auto-recon/status/1300",
+					"protocol": "http",
+					"host": [
+						"13",
+						"201",
+						"0",
+						"183"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"recon",
+						"auto-recon",
+						"status",
+						"1300"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://recon.benow.in/api/recon/auto-recon/status/1300' \\\r\n  -H 'Accept: */*' \\\r\n  -H 'Accept-Language: en-US,en;q=0.9,hi;q=0.8,bn;q=0.7,az;q=0.6,bho;q=0.5,und;q=0.4' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0MjBAZXhhbXBsZS5jb20iLCJleHAiOjE3NjE4MTU0NjZ9.mxtPGSf0jtVhiQaUSv-aAbiEjU46V9qIzQWc2oGjGZs' \\\r\n  -H 'Cache-Control: no-cache' \\\r\n  -H 'Connection: keep-alive' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'Origin: https://recon.benow.in' \\\r\n  -H 'Pragma: no-cache' \\\r\n  -H 'Referer: https://recon.benow.in/' \\\r\n  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36' \\\r\n  --insecure"
+			},
+			"response": []
+		}
+	]
+}
