@@ -13,7 +13,10 @@
       "Bash(ls:*)",
       "WebFetch(domain:www.benow.in)",
       "Bash(curl:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git branch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)"
     ]
   }
 }
