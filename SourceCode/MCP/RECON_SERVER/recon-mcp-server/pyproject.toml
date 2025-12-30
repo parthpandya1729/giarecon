@@ -1,0 +1,22 @@
+[project]
+name = "recon-mcp-server"
+version = "0.1.0"
+description = "MCP server for Benow Recon API automation"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "httpx>=0.28.1",
+    "requests>=2.32.3",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]

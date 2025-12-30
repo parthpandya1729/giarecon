@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme - Professional Benow Design */
+    --background: 210 20% 98%;      /* gray-50 */
+    --foreground: 222 47% 11%;       /* gray-900 */
+    --card: 0 0% 100%;               /* white */
+    --card-foreground: 222 47% 11%;  /* gray-900 */
+    --popover: 0 0% 100%;            /* white */
+    --popover-foreground: 222 47% 11%; /* gray-900 */
+    --primary: 220 75% 48%;          /* benow-blue-600 */
+    --primary-foreground: 0 0% 100%; /* white */
+    --secondary: 220 13% 91%;        /* gray-100 */
+    --secondary-foreground: 220 9% 46%; /* gray-600 */
+    --muted: 220 13% 95%;            /* gray-100 */
+    --muted-foreground: 220 9% 46%;  /* gray-600 */
+    --accent: 220 75% 48%;           /* benow-blue-600 */
+    --accent-foreground: 0 0% 100%;  /* white */
+    --destructive: 0 84% 60%;        /* error-500 */
+    --destructive-foreground: 0 0% 100%; /* white */
+    --border: 220 13% 91%;           /* gray-200 */
+    --input: 220 13% 91%;            /* gray-200 */
+    --ring: 220 75% 48%;             /* benow-blue-600 */
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+}
+
+@layer utilities {
+  /* Professional Card Utilities */
+  .card-base {
+    @apply bg-white border border-gray-200 rounded-lg;
+  }
+
+  .card-interactive {
+    @apply card-base transition-shadow duration-200;
+  }
+
+  .card-interactive:hover {
+    @apply shadow-card-hover;
+  }
+
+  /* Focus Ring - Professional Accessibility */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-benow-blue-600 focus:ring-offset-2;
+  }
+
+  /* Gradient Backgrounds - Professional Benow Branding */
+  .bg-gradient-benow {
+    background: linear-gradient(135deg, #ffffff 0%, #f9fafb 50%, #eff6ff 100%);
+  }
+
+  .bg-gradient-benow-subtle {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  }
+
+  /* Professional Scrollbar Styling */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-benow-blue-600/30 hover:bg-benow-blue-600/50;
+    border-radius: 4px;
+  }
+
+  /* Status Badge Utilities */
+  .badge-success {
+    @apply bg-success-50 text-success-700 border border-success-200 px-2 py-1 rounded-md text-xs font-medium;
+  }
+
+  .badge-warning {
+    @apply bg-warning-50 text-warning-700 border border-warning-200 px-2 py-1 rounded-md text-xs font-medium;
+  }
+
+  .badge-error {
+    @apply bg-error-50 text-error-700 border border-error-200 px-2 py-1 rounded-md text-xs font-medium;
+  }
+
+  .badge-info {
+    @apply bg-info-50 text-info-700 border border-info-200 px-2 py-1 rounded-md text-xs font-medium;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(git -C /mnt/c/projects/cashless/giarecon/Requirement ls-files:*)",
+      "Bash(git -C /mnt/c/projects/cashless/giarecon/Requirement status)",
+      "Bash(git -C /mnt/c/projects/cashless/giarecon/Requirement log --oneline -5)",
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(test:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:www.benow.in)",
+      "Bash(curl:*)",
+      "Bash(rm:*)"
+    ]
+  }
+}
